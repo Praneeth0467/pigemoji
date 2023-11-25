@@ -1,0 +1,76 @@
+.face{
+    position: absolute;
+    border: 3px solid black;
+    height: 300px;
+    width: 300px;
+    background-color:#ffaae0;
+    border-radius: 50%;
+    margin:20%;
+}
+
+.eye{
+    display: flex;
+    justify-items: inline;
+    margin:auto;
+    margin-top:30%;
+    justify-content: space-evenly;
+    
+}
+.eye1, .eye2{
+    background-color: aliceblue;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: solid black 3px;
+}
+.ret1, .ret2{
+    margin: auto;    
+    margin-top:30%;    
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.mouth{
+    border:solid black 3px;
+    height:40px;
+    width: 120px;
+    border-radius: 35px;
+    display: flex;
+    justify-items: baseline;
+    margin:auto;
+    margin-top:2%;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #fd88d2;
+}
+.nose1, .nose2{
+    border:solid black 3px;
+    height:35px;
+    width: 35px;
+    border-radius:50%;
+    background-color: #631c49;
+}
+
+
+.ear{
+   position: absolute;
+    display: flex;
+    width:300px;
+    justify-content: space-between;
+    justify-items: inline;
+    margin:auto;
+}
+.ear1, .ear2{
+    border: 3px solid black;
+    height: 35px;
+    width: 70px;
+    border-radius: 50px 50px 0px 0px;
+    background-color: #fd9bd7;
+}
+.ear1{
+    transform: rotate(-45deg);
+}
+.ear2{
+    transform: rotate(48deg);
+}
